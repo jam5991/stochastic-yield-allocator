@@ -33,21 +33,21 @@ A 3D surface plot mapping *Incoming Request Volume (x-axis)* against *Lease Dura
 - **Proof:** The visualization proves that as the mix of daily/monthly requests becomes highly erratic (noisy data), the RL core maintains a flat, deterministic latency of **<1ms**.
 - **Comparison:** Baseline JVM microservices spike exponentially into the **145ms range**, causing critical race conditions in double-booking.
 
-![Stress Test](/Users/jorgemartinez/Documents/projects/stochastic-yield-allocator/reports/figures/stress_test_surface.png)
+![Stress Test](reports/figures/stress_test_surface.png)
 
 ### 2. The "Latent/Feature" Space (Semantic Understanding)
 A t-SNE scatter plot revealing the engine's embedded latent space of inventory nodes.
 - **Insight:** Rather than grouping units by physical floorplan, the AI clusters them into **"Duration Risk Profiles."**
 - **Validation:** Short-Stay Dominant units separate clearly from Long-Term Stable units, proving the AI understands **financial velocity**, not just physical layout.
 
-![Latent Space](/Users/jorgemartinez/Documents/projects/stochastic-yield-allocator/reports/figures/latent_space_tsne.png)
+![Latent Space](reports/figures/latent_space_tsne.png)
 
 ### 3. The "Efficiency Frontier" (Performance vs. Cost)
 A Pareto frontier curve plotting *Hardware Compute Cost ($)* vs. *Vacancy Gap Reduction (%)*.
 - **Transition:** Visualizes the leap from naive CPUs to accelerators.
 - **ROI:** Spending a marginal $400/mo in inference cost buys an **18% reduction** in "Swiss cheese" vacancy gaps, generating an asymmetric ROI that outpaces traditional scaling.
 
-![Pareto Frontier](/Users/jorgemartinez/Documents/projects/stochastic-yield-allocator/reports/figures/pareto_frontier.png)
+![Pareto Frontier](reports/figures/pareto_frontier.png)
 
 ## 🏁 Comparison Matrix (Austin, TX Data)
 

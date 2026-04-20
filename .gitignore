@@ -2,6 +2,7 @@
 data/raw/
 data/processed/
 models/checkpoints/
+reports/metrics.npz
 
 # Python
 __pycache__/

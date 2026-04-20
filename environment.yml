@@ -1,0 +1,22 @@
+name: sya
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - requests
+  - pyarrow
+  - pip:
+    - jax[cpu]
+    - flax
+    - sbx-rl
+    - gymnasium
+    - stable-baselines3
+    - plotly
+    - kaleido

@@ -1,0 +1,32 @@
+# Data & model artifacts
+data/raw/
+data/processed/
+models/checkpoints/
+reports/figures/
+reports/metrics.npz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Rust
+target/
+
+# Environment
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
